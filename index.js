@@ -37,10 +37,10 @@ const log = () => {
 }
 
 // วิธีการใช้งานคือ ให้ user ประกาศตัวแปรหนึ่งที่เรียกใช้งาน Fn log() และนำตัวเเปรนั้นมาเรียกใช้ method ที่เราสร้างตามด้วย string
-const logger = log()
+// const logger = log()
 
-logger.success('Yes!!') // ผลลัพธ์ที่ได้คือ log ที่แสดงผล string + สีที่เราใส่ให้
-logger.warn("It's okay!!")
-logger.error('No!!')
+// logger.success('Yes!!') // ผลลัพธ์ที่ได้คือ log ที่แสดงผล string + สีที่เราใส่ให้
+// logger.warn("It's okay!!")
+// logger.error('No!!')
 
 module.exports = log;
